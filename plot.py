@@ -37,8 +37,8 @@ def calculate_portfolio_weights(Sigma, mu, T, u, l):
         x = x0 + u * d2 + l * d3
 
         # Output x
-        print(x)
-        print("Sum of weights: ", np.sum(x))
+        # print(x)
+        # print("Sum of weights: ", np.sum(x))
         return x
     else:
         print("Matrix is not positive definite:\n")
